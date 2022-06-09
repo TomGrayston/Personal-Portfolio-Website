@@ -42,26 +42,23 @@ const Header = () => {
                     </Avatar>
                     <br/>
                     <Button colorScheme="red" size="sm" leftIcon={<DownloadIcon/>} >
-                        <a src="../../public/TestDoc.pdf" download="TestDoc.pdf" href="TestDoc.pdf"> Download My CV </a> 
+                        <a src="../../public/Tom_Grayston_CV.pdf" download="Tom_Grayston_CV.pdf" href="Tom_Grayston_CV.pdf"> Download My CV </a> 
                     </Button>
                 </VStack>
 
                 <TextBlock>
                     <Heading fontSize="4xl" >
-                    HELLO!
+                    HEY!
                     </Heading>
                     <Text fontSize="md" >
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                    Velit officia consequat duis enim velit mollit. 
-                    Exercitation veniam consequat sunt nostrud amet. 
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Im Tom! Im a Software Engineer based in the UK with and interest in emerging technologies. 
+                    A short summary of me would be  I love to learn, create, collaborate and build new and 
+                    interesting things 👨‍💻 
+                    Welcome to my slice of the internet - I hope you find it interesting!
                     </Text>
                     <Text fontSize="md" >
-                    Thanks for dropping by,
+                    Thanks for dropping by! 😄
                     </Text>
-                    <Heading fontSize="2xl" >
-                    Dev Person
-                    </Heading>
                 </TextBlock>
             </Stack>
             <Divider p="0.5rem"/>

@@ -42,7 +42,7 @@ const ContactSection = ({ children }) => {
 
         if (res.status === 200) {
             toast({
-                title: 'Message Sent',
+                title: 'Message Sent 🥳',
                 description: "I will try to get back to you as fast as possible",
                 status: 'success',
                 duration: 1500
@@ -54,7 +54,7 @@ const ContactSection = ({ children }) => {
             setMessage("");
         } else {
             toast({
-                title: 'Something went wrong.',
+                title: 'Something went wrong 😭',
                 description: "Sorry, there was a problem sending your email",
                 status: 'error',
                 duration: 1500

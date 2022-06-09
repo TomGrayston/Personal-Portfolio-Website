@@ -3,14 +3,13 @@ import {
     Container,
     Heading,
     Button,
-    Divider,
     Flex,
 } from "@chakra-ui/react";
 import { ArrowBackIcon } from "@chakra-ui/icons";
 import NextLink from "next/link";
-
 import PROJECTS from "../common/projectsData.json";
 import { Project as ProjectInterface } from "../common/types";
+import PlaceholderProject from "../components/LandingPage/FeaturedWorkSection/PlaceholderProject"
 
 const ProjectsPage: React.FC = () => {
     
@@ -37,7 +36,13 @@ const ProjectsPage: React.FC = () => {
                     </Button>
                 </NextLink>
             </Flex>
+
+            <PlaceholderProject/>
+            <PlaceholderProject/>
+            <PlaceholderProject/>
+
             {projects}
+
         </Container>
     );
 };

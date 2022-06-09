@@ -22,6 +22,8 @@ const FeaturedWork = () => {
 
                 <PlaceholderProject/>
                 <PlaceholderProject/>
+                <PlaceholderProject/>
+                
                 {featuredProjects}
                 
                 <Link href="/projects" align="center" >

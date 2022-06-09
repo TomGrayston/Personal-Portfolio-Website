@@ -8,11 +8,12 @@ function MyApp({ Component, pageProps }) {
     <ChakraProvider>
         <Head>
             <title>
-                Dev Person - Software Engineer
+                Tom Grayston - Software Engineer
             </title>
+            <link rel = "icon" href="https://img.icons8.com/emoji/48/undefined/united-kingdom-emoji.png" type="image/x-icon"></link>
             <meta
                 name="desciption"
-                content="Personal Portfolio of Dev Person, a software engineer"
+                content="Personal Portfolio of Tom Grayston, a software engineer"
             />
         </Head>
         <Navbar/>

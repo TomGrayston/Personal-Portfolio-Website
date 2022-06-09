@@ -21,7 +21,7 @@ const PlaceholderProject =() => {
                     <Skeleton height="20px" width="100%"/>
                 </VStack>
             </Container>
-            <Divider/>
+            <Divider my="3"/>
         </>
     );
 }

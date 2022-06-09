@@ -17,7 +17,7 @@ const Footer = () => {
                             <Icon as={FaLinkedin} w={10} h={10}/>
                         </Link>
                     </HStack>
-                    <Text fontSize="sm">Copyright ©2022 All rights reserved</Text>
+                    <Text fontSize="sm">Created By Me 😄</Text>
                 </VStack>
             </Container>
         </>

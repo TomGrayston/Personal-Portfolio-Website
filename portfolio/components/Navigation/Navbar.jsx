@@ -17,7 +17,7 @@ import { AiOutlineHome } from "react-icons/ai";
                 <Box display={{ base: "inline-block", md: "flex" }} style={{ gap: "2.8rem" }}>
                     <Heading as="h1" size="md">
                         <Link href="/">
-                            Dev Person
+                            Tom Grayston
                         </Link>
                     </Heading>
                     <Box display={{ base: "none", md: "inline" }} mr="auto">
