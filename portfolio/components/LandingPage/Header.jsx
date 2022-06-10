@@ -48,7 +48,7 @@ const Header = () => {
 
                 <TextBlock>
                     <Heading fontSize="4xl" >
-                    Hey, I'm Tom! 👋 
+                    Hey, Im Tom! 👋 
                     </Heading>
                     <Text fontSize="md" >
                     Im a Software Engineer based in the UK with and interest in emerging technologies. 
