@@ -37,11 +37,9 @@ const ProjectsPage: React.FC = () => {
                 </NextLink>
             </Flex>
 
-            <PlaceholderProject/>
-            <PlaceholderProject/>
-            <PlaceholderProject/>
-
             {projects}
+
+            <PlaceholderProject/>
 
         </Container>
     );

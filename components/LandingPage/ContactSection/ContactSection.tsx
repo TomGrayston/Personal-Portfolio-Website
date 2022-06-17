@@ -18,10 +18,14 @@ const ContactSection = ({ children }) => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [submitted, setSubmitted] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     const toast = useToast()
 
     const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
+
+        setLoading(true);
+
         e.preventDefault();
 
         let data = {
@@ -41,6 +45,9 @@ const ContactSection = ({ children }) => {
         })
 
         if (res.status === 200) {
+
+            setLoading(false);
+
             toast({
                 title: 'Message Sent 🥳',
                 description: "I will try to get back to you as fast as possible",
@@ -53,6 +60,9 @@ const ContactSection = ({ children }) => {
             setSubject("");
             setMessage("");
         } else {
+
+            setLoading(false);
+
             toast({
                 title: 'Something went wrong 😭',
                 description: "Sorry, there was a problem sending your email",
@@ -111,7 +121,11 @@ const ContactSection = ({ children }) => {
                         <Button
                             leftIcon={<EmailIcon />}
                             colorScheme="red"
-                            onClick={(e:React.MouseEvent<HTMLButtonElement>) => handleSubmit(e)}
+                            onClick={
+                                (e:React.MouseEvent<HTMLButtonElement>) => handleSubmit(e)
+                            }
+                            isLoading={loading}
+                            loadingText="Sending"
                         >
                             Send Message
                         </Button>

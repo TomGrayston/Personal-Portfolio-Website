@@ -6,6 +6,7 @@ import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu";
 import Link from "next/link";
 import { Icon } from '@chakra-ui/react';
 import { FaGithub } from "react-icons/fa";
+import { BsLinkedin, BsGithub} from "react-icons/bs"
 import { AiOutlineHome } from "react-icons/ai";
 
     const Navbar = () => {
@@ -32,6 +33,13 @@ import { AiOutlineHome } from "react-icons/ai";
 
                 <HStack spacing="0.5rem">
                     <Spacer />
+                    <Link href="https://github.com/tomgrayston">
+                        <IconButton icon={<BsGithub/>} aria-label="Github"/>
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/tomgrayston/">
+                        <IconButton icon={<BsLinkedin/>} aria-label="LinkedIn"/>
+                    </Link>
+                    
                     <Button onClick={toggleColorMode}>
                     {colorMode === "light" ? (
                         <MoonIcon color="purple.900" />

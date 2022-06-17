@@ -1,3 +1,31 @@
 [
-
+    {
+        "id": 0,
+        "heading": "Esentials App",
+        "subheading": "Moblie App designed for people with housemates or in other shared living situations",
+        "year": 2022,
+        "techUsed": ["JS & TS", "React Native", "Node JS", "Chakra UI", "Expo", "Adobe XD"],
+        "body": "Essentials is an ongoing collabrative side project ran by myself. The aim of the app is to assist individuals in shared living situations which allows for the tracking of household 'essential items' within the user's groups they have created with the items they have listed. Currently in the early stages of development. ",
+        "link": "https://github.com/TomGrayston/Essentials",
+        "isFeatured": true
+    },
+    {
+        "id": 1,
+        "heading": "My Portfolio Website",
+        "year": 2022,
+        "techUsed": ["JS & TS", "React", "Node JS", "Chakra UI", "Vercel"],
+        "body": "I created my portfolio website with the intention that it can be a place for me to post information regarding my side projects, experiances and other information about me! I plan to improve the website over time as I have more to show 😄",
+        "link": "https://github.com/TomGrayston/GenericPortfolio",
+        "isFeatured": true
+    },
+    {
+        "id": 2,
+        "heading": "VR Eye Tracking Head Movement Amplification Project",
+        "subheading": "A HCI university dissertation VR project",
+        "year": 2019,
+        "techUsed": ["Unity Game Engine", "C#" ],
+        "body": "Utilised the then-unreleased 'HTC Vive Pro Eye' in which I used the eye-tracking capabilities to investigate new uses of the hardware. The aim of the project was to investigate whether there was a way to link eye behavior and movements of users to uplift and amply movement within VR to help aid users whose motor functions may be hindered.",
+        "link": "https://github.com/TomGrayston/VR_Dissertation",
+        "isFeatured": true
+    }
 ]

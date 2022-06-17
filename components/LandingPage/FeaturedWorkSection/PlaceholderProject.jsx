@@ -14,7 +14,7 @@ const PlaceholderProject =() => {
                 <VStack alignItems="flex-start" >
                     <Skeleton height="40px" width="100%" />
                     <Badge colorScheme="red" variant="solid" >
-                        Coming Soon
+                        More Coming Soon
                     </Badge>
                     <Skeleton height="20px" width="100%"/>
                     <Skeleton height="20px" width="100%"/>

@@ -20,10 +20,6 @@ const FeaturedWork = () => {
                     Portfolio Projects
                 </Heading>
 
-                <PlaceholderProject/>
-                <PlaceholderProject/>
-                <PlaceholderProject/>
-                
                 {featuredProjects}
                 
                 <Link href="/projects" align="center" >

@@ -11,13 +11,13 @@ const Footer = () => {
                 <VStack>
                     <HStack spacing="25px" justifyContent="center">
                         <Link target="_blank" href="https://github.com/tomgrayston">
-                            <Icon as={FaGithub} w={10} h={10}/>
+                            <Icon as={FaGithub} w={7} h={7}/>
                         </Link>
                         <Link target="_blank" href="https://www.linkedin.com/in/tomgrayston/">
-                            <Icon as={FaLinkedin} w={10} h={10}/>
+                            <Icon as={FaLinkedin} w={7} h={7}/>
                         </Link>
                     </HStack>
-                    <Text fontSize="sm">Created By Me 😎</Text>
+                    <Text fontSize="sm">Created by Me 😄</Text>
                 </VStack>
             </Container>
         </>

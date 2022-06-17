@@ -36,7 +36,15 @@ const ExampleProject: React.FC<Props> = ({ project }) => {
     const techBadges = project.techUsed ? (
         <Box>
             {project?.techUsed.map((tech, i) => (
-                <Badge colorScheme="red" variant="solid" px="2" mr="2" key={i}>
+                <Badge 
+                    colorScheme="red" 
+                    borderRadius="full" 
+                    variant="solid" 
+                    px="2"
+                    mr="2"
+                    key={i}
+                    fontSize='0.8em'
+                >
                     {tech}
                 </Badge>
             ))}
@@ -65,7 +73,7 @@ const ExampleProject: React.FC<Props> = ({ project }) => {
                 >
                     <LinkOverlay onClick={onOpen}>
                         <VStack alignItems="flex-start">
-                            <Stack 
+                            <HStack 
                                 direction={{ base: "column-reverse", sm: "row"}}
                                 align={{base: "start", sm: "center"}}
                                 w="full"
@@ -77,17 +85,16 @@ const ExampleProject: React.FC<Props> = ({ project }) => {
                                 <Badge
                                     colorScheme="red"
                                     variant="solid"
-                                    borderRadius="full"
-                                    px="2"
+                                    fontSize='1em'
                                 >
                                     {project.year}
                                 </Badge>
-                            </Stack>
-                            <Text fontSize="xs" align="center">
+                            </HStack>
+                            <Text fontSize="xs" alignSelf="flex-start" noOfLines={1}>
                                 {project.subheading}
                             </Text>
                             {techBadges}
-                            <Text fontSize="sm" noOfLines={5}>{project.body}</Text>
+                            <Text fontSize="sm" noOfLines={4}>{project.body}</Text>
                         </VStack>
                     </LinkOverlay>
                 </Container>
@@ -110,16 +117,17 @@ const ExampleProject: React.FC<Props> = ({ project }) => {
                                 <Badge
                                     colorScheme="red"
                                     variant="solid"
-                                    borderRadius="full"
-                                    px="2"
                                 >
                                     {project.year}
                                 </Badge>
-                                <Text fontSize="xs" align="center">
+                                <Text fontSize="xs" align="start" >
                                     {project.subheading}
                                 </Text>
                             </HStack>
                             <Text>{project.body}</Text>
+                                <Divider/>
+                                <Text >Project Stack:</Text>
+                                {techBadges}
                         </VStack>
                     </ModalBody>
                     <ModalFooter>
