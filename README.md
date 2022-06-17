@@ -1,3 +1,10 @@
+### Technologies Used
+
+- [Next.JS](https://nextjs.org/)
+- [Node.JS](https://nodejs.org/)
+- [React](https://reactjs.org/docs/getting-started.html) 
+- [Chakra UI](https://chakra-ui.com/)
+
 ## Nodemailer
 For receiving mail via the contact form, we're using Nodemailer, which sends emails first to a dummy account (not your personal acc) to keep personal email accounts secure.
 
