@@ -51,8 +51,8 @@ const Header = () => {
                     Hi, I&apos;m Tom! 👋 
                     </Heading>
                     <Text fontSize="md" >
-                    I&apos;m a Software Engineer based in the UK with and interest in emerging technologies. 
-                    A short summary of me would be  I love to learn, create, collaborate and build new &amp; 
+                    I&apos;m a Software Engineer based in the UK with an interest in emerging technologies. 
+                    A short summary of me would be that I love to learn, create, collaborate and build new &amp; 
                     interesting things 👨‍💻 
                     Welcome to my slice of the internet - I hope you find it interesting!
                     </Text>

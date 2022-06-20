@@ -2,7 +2,6 @@ import {
     Container, Heading, VStack, Button, Divider, Link
     } from '@chakra-ui/react';
 import Project from "./Project";
-import PlaceholderProject from "./PlaceholderProject";
 import PROJECTS from "../../../common/projectsData.json"
 
 const FeaturedWork = () => {
