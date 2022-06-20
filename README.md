@@ -21,3 +21,4 @@ For local development, ENV variables should be stored in a .env.local file in th
 | SMTP_HOST | your chosen smtp host (e.g. smtp.gmail.com) |
 | SMTP_PORT | 465 unless you have a reason for changing it |
 | MY_EMAIL | email address of your personal account where emails should finally be sent to |
+
