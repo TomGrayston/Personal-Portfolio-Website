@@ -5,12 +5,12 @@ import { Heading } from "@chakra-ui/react";
 import { Stack, Text, VStack, Container, Divider } from "@chakra-ui/layout";
 import { DownloadIcon } from '@chakra-ui/icons';
 import Image from "next/image";
-import profilepic from "../../public/profilepicture.jpg";
-import TextBlock from "./FeaturedWorkSection/TextBlock";
+import profilepic from "../../../public/profilepicture.jpg";
+import TextBlock from "../FeaturedWorkSection/TextBlock";
 
 const Header = () => {
     return (
-        <Container maxW="container.md">
+        <Container maxW="container.md" p="1rem 1rem 1rem 1rem">
             <Stack
                 alignItems="center"
                 justify="center"
@@ -29,7 +29,7 @@ const Header = () => {
                         borderStyle="solid"
                         borderColor={useColorModeValue("black", "white.500")}
                         boxSizing="border-box"
-                        size="2xl"
+                        size="3xl"
                         display="inline-block"
                         overflow="hidden"
                     >
@@ -42,7 +42,7 @@ const Header = () => {
                     </Avatar>
                     <br/>
                     <Button colorScheme="red" size="sm" leftIcon={<DownloadIcon/>} >
-                        <a src="../../public/Tom_Grayston_CV.pdf" download="Tom_Grayston_CV.pdf" href="Tom_Grayston_CV.pdf"> Download My CV </a> 
+                        <a src="../../../public/Tom_Grayston_CV.pdf" download="Tom_Grayston_CV.pdf" href="Tom_Grayston_CV.pdf"> Download My CV </a> 
                     </Button>
                 </VStack>
 
@@ -51,7 +51,7 @@ const Header = () => {
                     Hi, I&apos;m Tom! 👋 
                     </Heading>
                     <Text fontSize="md" >
-                    I&apos;m a Software Engineer based in the UK with an interest in emerging technologies. 
+                    I&apos;m a Full-Stack Software Engineer based in the UK with an interest in emerging technologies. 
                     A short summary of me would be that I love to learn, create, collaborate and build new &amp; 
                     interesting things 👨‍💻 
                     Welcome to my slice of the internet - I hope you find it interesting!
@@ -61,7 +61,7 @@ const Header = () => {
                     </Text>
                 </TextBlock>
             </Stack>
-            <Divider p="0.5rem"/>
+            <Divider />
         </Container>
     );
 };
