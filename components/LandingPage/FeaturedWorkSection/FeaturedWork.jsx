@@ -15,7 +15,7 @@ const FeaturedWork = () => {
             justify="center"
             m={{ base: "1rem 0 1.2rem 0", md: "3rem 0 4rem 0" }}
             >
-                <Heading fontSize="xl" >
+                <Heading fontSize="xl" p="0 0 1rem 0">
                     Portfolio Projects
                 </Heading>
 

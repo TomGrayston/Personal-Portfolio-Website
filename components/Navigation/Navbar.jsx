@@ -14,16 +14,18 @@ import { AiOutlineHome } from "react-icons/ai";
     return (
         <>
             <Container py="1rem" maxW="container.xl">
-                <HStack justifyContent={{ base: "space-between", md: "space-evenly" }}>
+                <HStack justifyContent={{ base: "space-between", md: "space-evenly" }} >
                 <Box display={{ base: "inline-block", md: "flex" }} style={{ gap: "2.8rem" }}>
-                    <Heading as="h1" size="md">
+                    <Heading size="md">
                         <Link href="/">
                             Tom Grayston
                         </Link>
                     </Heading>
                     <Box display={{ base: "none", md: "inline" }} mr="auto">
                         <HStack spacing="1.7rem">
-                            <Link href="/projects">Projects</Link>
+                            <Link href="/projects">
+                                Projects
+                            </Link>
                             <a className="skip-link" href="./#contact">
                                 Contact Me
                             </a>
