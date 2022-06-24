@@ -1,10 +1,10 @@
 import { SimpleGrid } from "@chakra-ui/react";
 import TechContainer from "./TechContainer";
+import firebase from "../../../../public/firebase.png";
 import react from "../../../../public/react.png";
 import next from "../../../../public/next-js.png";
 import node from "../../../../public/node-js.png";
 import unity from "../../../../public/unity.png";
-import firebase from "../../../../public/firebase.png";
 
     const Frameworks = ({}) => {
     return (
