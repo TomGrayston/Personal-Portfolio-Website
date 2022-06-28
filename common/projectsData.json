@@ -1,10 +1,10 @@
 [
     {
         "id": 0,
-        "heading": "Esentials App",
+        "heading": "Essentials App",
         "subheading": "Moblie App designed for people with housemates or in other shared living situations",
         "year": 2022,
-        "techUsed": ["JS & TS", "React Native", "Node JS", "Chakra UI", "Expo", "Adobe XD"],
+        "techUsed": ["JS & TS", "React Native", "Chakra UI", "Node JS",  "Firebase", "Expo", "Adobe XD"],
         "body": "Essentials is an ongoing collabrative side project ran by myself. The aim of the app is to assist individuals in shared living situations which allows for the tracking of household 'essential items' within the user's groups they have created with the items they have listed. Currently in the early stages of development. ",
         "link": "https://github.com/Fulwud/Essentials",
         "isFeatured": true
